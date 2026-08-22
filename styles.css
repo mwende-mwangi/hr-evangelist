@@ -379,14 +379,9 @@ img {
 
 .author-image-placeholder {
   min-height: 380px;
-  display: grid;
-  place-items: center;
-  color: var(--white);
-
-  background:
-    linear-gradient(rgba(19, 44, 59, 0.35), rgba(79, 154, 155, 0.35)),
-    url("images/cover.png") center / cover;
+  background: url("images/cover.png") center / cover no-repeat;
 }
+
 
 
 .author-image-placeholder span {
