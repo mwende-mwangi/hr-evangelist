@@ -301,22 +301,9 @@ img {
 
 .book-cover {
   min-height: 500px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 42px 28px;
-  overflow: hidden;
-  color: var(--navy-dark);
-
-  background:
-    linear-gradient(rgba(226, 243, 240, 0.35), rgba(251, 248, 240, 0.45)),
-    url("images/cover.png") center / cover;
-
-  border: 12px solid var(--navy);
-  box-shadow: var(--shadow);
+  background: url("images/cover.png") center / cover no-repeat;
 }
+
 
 .book-cover::before {
   content: "";
